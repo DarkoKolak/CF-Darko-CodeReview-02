@@ -1,0 +1,229 @@
+header {
+  background-color: #5B1113;
+  height: 100%; }
+
+aside {
+  display: none; }
+
+.mbanner {
+  display: none; }
+
+#logo1 {
+  align-content: center;
+  width: 50%;
+  padding-left: 7%; }
+
+#logo2 {
+  display: none; }
+
+.header1 {
+  flex-flow: row;
+  flex-wrap: none;
+  justify-content: center;
+  height: 20%; }
+
+.header2 {
+  justify-content: center;
+  display: flex;
+  background-color: #101010; }
+  .header2 nav {
+    width: 80%;
+    margin: 2vw; }
+    .header2 nav ul {
+      margin: 0;
+      padding: 0;
+      flex-flow: row;
+      flex-wrap: none;
+      justify-content: space-around;
+      display: flex;
+      list-style-type: none; }
+      .header2 nav ul li {
+        text-align: center; }
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 3vw; }
+
+.Foto {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex; }
+  .Foto .text {
+    background-color: black;
+    width: 45%;
+    margin: 2vw; }
+    .Foto .text img {
+      width: 100%;
+      height: 70%; }
+    .Foto .text a {
+      margin: 0;
+      background-color: black;
+      padding-left: 1.5%;
+      color: white;
+      font-size: 2.5vw; }
+  .Foto .lastfoto {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex; }
+    .Foto .lastfoto .text1 {
+      background-color: black;
+      width: 45%;
+      margin: 2vw; }
+      .Foto .lastfoto .text1 img {
+        width: 100%;
+        height: 70%; }
+      .Foto .lastfoto .text1 a {
+        margin: 0;
+        background-color: black;
+        padding-left: 1.5%;
+        color: white;
+        font-size: 2.5vw; }
+    .Foto .lastfoto #Fotoshow {
+      display: none; }
+    .Foto .lastfoto #fotospotify {
+      visibility: hidden; }
+
+.notext {
+  background-color: white;
+  height: auto;
+  width: 45%;
+  margin: 2vw; }
+  .notext img {
+    width: 100%;
+    height: 100%; }
+
+footer {
+  background-color: black; }
+  footer ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex; }
+    footer ul li {
+      padding: 1vw;
+      font-size: 3vw; }
+      footer ul li a {
+        font-size: 3vw; }
+
+.footer1 {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between; }
+  .footer1 p {
+    font-size: 3vw;
+    color: white;
+    text-align: center; }
+
+#footer2 {
+  width: 50%;
+  padding-left: 25%; }
+
+#NEWS {
+  width: 100%;
+  background-color: gray;
+  font-size: 3vw; }
+
+#POPULAR {
+  width: 100%;
+  background-color: gray;
+  font-size: 3vw; }
+
+@media screen and (min-width: 580px) {
+  body {
+    margin: 0 auto;
+    padding: 0 auto; }
+
+  .header1 {
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: space-between;
+    display: flex;
+    height: 10vw; }
+
+  #logo2 {
+    display: block;
+    width: 60%;
+    margin: 1%;
+    height: 7vW;
+    padding-top: 1.5vw; }
+
+  #logo1 {
+    padding-left: 1vw;
+    width: 20%;
+    height: 5vw;
+    margin: 1%;
+    padding-top: 2.5vw; }
+
+  .bigger {
+    width: 90%;
+    padding-left: 5%; }
+    .bigger .Foto {
+      flex-direction: row;
+      flex-wrap: none;
+      justify-content: space-around;
+      display: flex; }
+      .bigger .Foto .notext {
+        display: none; }
+      .bigger .Foto .text {
+        background-color: black;
+        width: 25%;
+        margin: 2vw; }
+        .bigger .Foto .text img {
+          width: 100%;
+          height: 70%; }
+        .bigger .Foto .text a {
+          margin: 0;
+          background-color: black;
+          padding-left: 1.5%;
+          color: white;
+          font-size: 1.5vw; }
+
+  aside {
+    display: block;
+    width: 100%; }
+
+  .banner {
+    text-align: right;
+    width: 10%; }
+
+  .mbanner {
+    display: block;
+    width: 100%; }
+    .mbanner img {
+      width: 100%; }
+
+  .lastfoto {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex; }
+    .lastfoto .text1 {
+      background-color: black;
+      width: 35%;
+      margin: 2vw; }
+    .lastfoto #Fotoshow {
+      display: block; }
+    .lastfoto #fotospotify {
+      display: none; }
+      .lastfoto #fotospotify img {
+        width: 100%;
+        height: 70%; }
+      .lastfoto #fotospotify a {
+        margin: 0;
+        background-color: black;
+        padding-left: 1.5%;
+        color: white;
+        font-size: 1.5vw; }
+
+  #fotoplace {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
